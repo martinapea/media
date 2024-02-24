@@ -1,0 +1,19 @@
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .image1 {
+        max-width: 50%;
+    }
+}
+@media (max-width: 900px) {
+    .image2 {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .image3 {
+        width: 100px;
+    }
+}
